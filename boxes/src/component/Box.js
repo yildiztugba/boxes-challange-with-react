@@ -5,8 +5,10 @@ export default function Box(props){
         backgroundColor: props.on ? "black" : "white"
     }
 
+    
+
     function handleClick(){
-      console.log("clicked")
+      console.log(props.id)
     }
     
     
