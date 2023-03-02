@@ -10,12 +10,15 @@ const [squares, setsquare] = React.useState(boxes)
         backgroundColor: "black"
     }
 
+    function handleClick(){
+      console.log("clicked")
+    }
    
  const squareElements = squares.map(square => (
        <div 
             style={styles} 
             className="box"
-           
+           onClick= {handleClick}
         >
         </div>
     ))
