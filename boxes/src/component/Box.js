@@ -1,8 +1,8 @@
 import React from "react"
 
-export default function Box(){
+export default function Box(props){
     const styles = {
-        backgroundColor: "black"
+        backgroundColor: props.on ? "black" : "white"
     }
 
     function handleClick(){

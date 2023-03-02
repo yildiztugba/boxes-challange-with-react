@@ -9,7 +9,12 @@ const [squares, setsquare] = React.useState(boxes)
  
    
  const squareElements = squares.map(square => (
-       <Box />
+       <Box 
+        key= {square.id}
+        id = {square.id}
+        on = {square.on}
+
+       />
     ))
     
     return (
