@@ -5,18 +5,11 @@ export default function Box(props){
         backgroundColor: props.on ? "black" : "white"
     }
 
-    
-
-    function handleClick(){
-      console.log(props.id)
-    }
-    
-    
     return(
         <div 
             style={styles} 
             className="box"
-           onClick= {handleClick}
+            onClick = {props.toggle}
         >
         </div>
     )
