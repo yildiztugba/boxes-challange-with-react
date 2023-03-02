@@ -6,16 +6,20 @@ function App() {
 
 const [squares, setsquare] = React.useState(boxes)
 
-  function handleClick(){
-      console.log("tugba")
+  function handleClick(id){
+      setsquare((prevSquare)=>{
+    return prevSquare.map((square)=>{
+      return square.id === id ? {...square, on: !square.on} : square
+    })
+      })
     }
    
  const squareElements = squares.map(square => (
        <Box 
         key= {square.id}
-        id = {square.id}
+        
         on = {square.on}
-        toggle = {handleClick}
+        toggle = {()=>handleClick(square.id)}
 
        />
     ))
