@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boxes-challange-with-react/static/css/main.4a107c2d.css",
+    "main.js": "/boxes-challange-with-react/static/js/main.37889b16.js",
+    "static/js/787.cf9fd17b.chunk.js": "/boxes-challange-with-react/static/js/787.cf9fd17b.chunk.js",
+    "index.html": "/boxes-challange-with-react/index.html",
+    "main.4a107c2d.css.map": "/boxes-challange-with-react/static/css/main.4a107c2d.css.map",
+    "main.37889b16.js.map": "/boxes-challange-with-react/static/js/main.37889b16.js.map",
+    "787.cf9fd17b.chunk.js.map": "/boxes-challange-with-react/static/js/787.cf9fd17b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a107c2d.css",
+    "static/js/main.37889b16.js"
+  ]
+}
