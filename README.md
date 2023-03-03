@@ -34,7 +34,8 @@ To run the app, type `npm start` in the CLI.
 
 Here is a look at how to create a square element by mapping an array of object and calling the box component.
 
-```const squareElements = squares.map(square => (
+```
+const squareElements = squares.map(square => (
        <Box 
         key= {square.id}
         
